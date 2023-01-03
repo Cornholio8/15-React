@@ -5,7 +5,7 @@ import TextInput from '../TextInput/TextInput';
 import {useDispatch} from 'react-redux';
 import { addList } from '../../redux/store';
 
-const ListForm = props => {
+const ListForm = () => {
 
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');

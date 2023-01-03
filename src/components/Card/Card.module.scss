@@ -11,3 +11,23 @@
     justify-content: space-between;
     font-weight: bold;
 }
+
+.fav_button {
+    background-color: $color-light;
+    border: none;
+    i {       
+        transition: $transition;
+        font-size: 16px;
+    }
+}
+
+.fav_button:hover {
+
+    i {
+        text-shadow: 0 0 5px;
+    }
+}
+
+.isFavorite {
+    color: $color-warning;
+}
